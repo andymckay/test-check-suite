@@ -1,6 +1,6 @@
 name: CI
 
-on: [check_suite]
+on: [check_suite, check_run]
 
 jobs:
   build:
