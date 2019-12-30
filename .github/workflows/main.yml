@@ -1,9 +1,8 @@
 name: CI
 
 on:
-  check_run:
   check_suite:
-    types: [completed]
+    types: [requested, rerequested]
 
 jobs:
   build:
